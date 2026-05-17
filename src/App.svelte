@@ -1,9 +1,12 @@
 <script>
-  import Sky from "./components/Sky.svelte";
+  import Sky from "./components/Sky.svelte"
+  import Stars from "./components/Stars.svelte"
 </script>
 
 <main>
   <section>
-    <Sky />
+    <Sky>
+      <Stars />
+    </Sky>
   </section>
 </main>
