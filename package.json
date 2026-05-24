@@ -20,8 +20,10 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.0",
-    "@tsparticles/engine": "^4.0.2",
-    "@tsparticles/slim": "^4.0.2",
+    "@tsparticles/effect-trail": "^4.0.5",
+    "@tsparticles/engine": "^4.0.5",
+    "@tsparticles/plugin-emitters": "^4.0.5",
+    "@tsparticles/slim": "^4.0.5",
     "tailwindcss": "^4.3.0"
   }
 }
