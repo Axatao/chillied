@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import ShootingStars from "./components/ShootingStars.svelte";
   import Sky from "./components/Sky.svelte";
   import Stars from "./components/Stars.svelte";

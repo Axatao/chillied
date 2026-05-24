@@ -1,13 +1,13 @@
 <script lang="ts">
-  import { onMount } from "svelte";
   import type { Container } from "@tsparticles/engine";
   import { tsParticles } from "@tsparticles/engine";
   import { initParticles } from "../lib/particlesInit";
 
   const id = "shooting-stars-" + Math.random().toString(36).slice(2);
 
-  onMount(() => {
+  $effect(() => {
     let instance: Container | undefined;
+
     (async () => {
       await initParticles();
 
