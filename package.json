@@ -24,6 +24,7 @@
     "@tsparticles/engine": "^4.0.5",
     "@tsparticles/plugin-emitters": "^4.0.5",
     "@tsparticles/slim": "^4.0.5",
+    "astronomy-engine": "^2.1.19",
     "tailwindcss": "^4.3.0"
   }
 }
